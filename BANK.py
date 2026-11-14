@@ -11,7 +11,7 @@ if __name__ == "__main__":
     name = sys.argv[1]
     inital_balance = int(sys.argv[2])
     deposit = int(sys.argv[3])
-    total_balance = inital_balance + deposit
+    total_balance = initial_balance + deposit
     withdraw = int(sys.argv[4])
     total_balance = total_balance - withdraw
 
