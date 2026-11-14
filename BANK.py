@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
 print("\nCustomer Details")
 print("--------------")
-print(details(name, initial_balance, deposit, withdraw))
+print(details(name, initial_balance, deposit, withdraw, total_balance))
 
 if total_balance < 1000:
     print("minimum balance must be 1000")
