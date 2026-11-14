@@ -1,6 +1,6 @@
 import sys
 
-def details(name,initial_balance,deposit,withdraw,total_balance):
+def details(name,initial_balance,deposit,withdraw):
     print("Customer Name: ", name)
     print("Initial Balance: ", initial_balance)
     print("Balance after deposit ", deposit)
@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
 print("\nCustomer Details")
 print("--------------")
-print(details(name, initial_balance, deposit, withdraw, total_balance))
+print(details(name, initial_balance, deposit, withdraw))
 
 if total_balance < 1000:
     print("minimum balance must be 1000")
