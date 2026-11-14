@@ -21,5 +21,5 @@ if __name__ == "__main__":
     print("--------------")
     print(details(name, initial_balance, deposit, withdraw))
 
-if total_balance < 1000:
-    print("minimum balance must be 1000")
+    if total_balance < 1000:
+        print("minimum balance must be 1000")
