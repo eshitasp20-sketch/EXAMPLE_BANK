@@ -9,7 +9,7 @@ def details(name,initial_balance,deposit,withdraw,total_balance):
 
 if __name__ == "__main__":
     name = sys.argv[1]
-    inital_balance = int(sys.argv[2])
+    initial_balance = int(sys.argv[2])
     deposit = int(sys.argv[3])
     total_balance = initial_balance + deposit
     withdraw = int(sys.argv[4])
