@@ -17,9 +17,9 @@ if __name__ == "__main__":
 
     print("Total balance is ",total_balance)
 
-print("\nCustomer Details")
-print("--------------")
-print(details(name, initial_balance, deposit, withdraw))
+    print("\nCustomer Details")
+    print("--------------")
+    print(details(name, initial_balance, deposit, withdraw))
 
 if total_balance < 1000:
     print("minimum balance must be 1000")
